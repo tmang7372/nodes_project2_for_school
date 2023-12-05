@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin-left:auto;margin-right:auto;margin-top:50px;width:440px;
+    height:390px;border: 1px solid #e2e504;box-shadow: 2px 2px #e2e504">
+     <form action="/addmovie" method="POST">
+     <div style="margin-left:auto;margin-right:auto;margin-top:10px;width:420px;height:370px;
+     background-color:#f7fb04">
+        <label style="float:left;width:150px;margin-left:50px;margin-top:20px;color:#E1341E" for="nameOfMovie">Name of movie</label>
+        <input type="text" placeholder="Please type name of movie" style="float:left;margin-top:20px;border:1px solid #e2e504" name="nameOfMovie" id="nameOfMovie" maxlength="100">
+        <label style="clear:left;float:left;width:150px;margin-left:50px;margin-top:10px;color:#E1341E" for="descriptionOfMovie" >Description of Movie</label>
+        <textarea style="float:left;margin-top:10px;border:1px solid #e2e504" id="descriptionOfMovie" name="descriptionOfMovie" rows="10" cols="20"></textarea>
+        <label style="clear:left;float:left;width:150px;margin-left:50px;margin-top:10px;color:#E1341E" for="releaseDate">Release Date</label>
+        <input style="float:left;margin-top:10px;border:1px solid #e2e504" type="date" id="releaseDate" name="releaseDate">
+        <label style="clear:left;float:left;width:150px;margin-left:50px;margin-top:10px;color:#E1341E" for="image_URL">Image URL</label>
+        <input style="float:left;margin-top:10px;border:1px solid #e2e504" type="text" name="image_URL" id="image_URL" maxlength="100">
+        <label style="clear:left;float:left;width:150px;margin-left:50px;margin-top:10px;color:#E1341E" style="clear:left;float:left" for="genre_ID">GenreID</label>
+        <input style="float:left;margin-top:10px;border:1px solid #e2e504" type="text" name="genre_ID" id="genre_ID" maxlength="100">
+        <label style="clear:left;float:left;width:150px;margin-left:50px;margin-top:10px;color:#E1341E" for="active">Active</label>
+        <input style="float:left;margin-top:10px;border:1px solid #e2e504" type="text" name="active" id="active" maxlength="2">
+        <input type="submit" value="Submit Movie" style="clear:left;float:left;margin-left:160px;margin-top: 10px;color:#E1341E">     
+        </div></form></div>
+</body>
+</html>
